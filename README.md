@@ -15,10 +15,8 @@ Combine with a [Deed Poll generator](https://deedpoll.lgbt/) to change your name
 
 - Python 3.6 (or higher)
 
-A list of `names.txt`. You can fetch some from [here](http://www.nancy.cc/3-letter-baby-names/) like so:
-```js
-Array.from(document.querySelectorAll('a[href^="http://www.nancy.cc/baby-name/"]'))
-  .map(element => element.textContent)
-  .filter(name => name.length == 3)
-  .join('\n');
-```
+## Running
+
+`python generate.py <names_path>`
+
+Where the names file is the v2 first names from the [Facebook dump](https://github.com/philipperemy/name-dataset/tree/05ce13194d59110b1d34ddf98d3dc9d636d2a1c8/names_dataset/v2)
