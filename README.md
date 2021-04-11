@@ -15,10 +15,14 @@ Combine with a [Deed Poll generator](https://deedpoll.lgbt/) to change your name
 
 - Python 3.6 (or higher)
 
-A list of `names.txt`. You can fetch some from [here](http://www.nancy.cc/3-letter-baby-names/) like so:
+A file containing a list of names. You can fetch some from [here](http://www.nancy.cc/3-letter-baby-names/) like so:
 ```js
 Array.from(document.querySelectorAll('a[href^="http://www.nancy.cc/baby-name/"]'))
   .map(element => element.textContent)
   .filter(name => name.length == 3)
   .join('\n');
 ```
+
+## Usage
+
+`python generate.py <path_to_names>`

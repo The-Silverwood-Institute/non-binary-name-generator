@@ -1,8 +1,9 @@
 import random
 import string
 import random
+import sys
 
-with open('names.txt') as names_file:
+with open(sys.argv[1]) as names_file:
     names = [name.strip().lower() for name in names_file.readlines()]
 
 alphabet = list(string.ascii_lowercase)
