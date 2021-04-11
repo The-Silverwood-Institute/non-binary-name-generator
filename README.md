@@ -1,4 +1,4 @@
-# non-binary-name-generator
+# Non-binary Name Generator
 Procedurally generates non-binary people's names
 
 Choose from an exciting selection such as:
