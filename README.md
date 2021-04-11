@@ -11,6 +11,8 @@ Nhi   Lya   Kib   Yun   Vev   Cia   Jat
 
 Combine with a [Deed Poll generator](https://deedpoll.lgbt/) to change your name today!
 
+There's also [a branch](https://github.com/The-Silverwood-Institute/non-binary-name-generator/tree/fb_dump) that uses the Facebook names dump, but it produces terrible output
+
 ## Requirements
 
 - Python 3.6 (or higher)
