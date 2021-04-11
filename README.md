@@ -1,6 +1,16 @@
 # non-binary-name-generator
 Procedurally generates non-binary people's names
 
+Choose from an exciting selection such as:
+
+```
+Kaw   Xay   Eai   Lax   Wem   Hef   Gai
+Ges   Xam   Taz   Yur   Una   Ich   Jai
+Nhi   Lya   Kib   Yun   Vev   Cia   Jat
+```
+
+Combine with a [Deed Poll generator](https://deedpoll.lgbt/) to change your name today!
+
 ## Requirements
 
 - Python 3.6 (or higher)
