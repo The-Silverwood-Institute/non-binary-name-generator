@@ -13,7 +13,7 @@ for letter in alphabet:
     frequency[letter] = {}
 
     for next_letter in alphabet:
-        frequency[letter][next_letter] = 1
+        frequency[letter][next_letter] = 0.1
 
 for name in names:
     frequency[name[0]][name[1]] += 2
